@@ -70,7 +70,7 @@ int main(int argc, char **argv)
   {
     LAST = NOW;
     NOW = SDL_GetPerformanceCounter();
-    deltaTime = (float) (NOW-LAST) * 1000 / SDL_GetPerformanceFrequency();
+    deltaTime = (double) (NOW-LAST) * 1000 / SDL_GetPerformanceFrequency();
     deltaTime /= 1000; // convert milliseconds to seconds
 
     SDL_PollEvent(&event);
