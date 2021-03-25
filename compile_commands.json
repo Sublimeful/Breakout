@@ -1,0 +1,30 @@
+[
+ {
+  "directory": "C:\\Users\\Qiang\\Desktop\\Breakout",
+  "arguments": [
+   "clang++",
+   "-Iinclude",
+   "-Wall",
+   "-g",
+   "-c",
+   "src/Sprite.cpp",
+   "-o",
+   "obj/Sprite.o"
+  ],
+  "file": "src/Sprite.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Qiang\\Desktop\\Breakout",
+  "arguments": [
+   "clang++",
+   "-Iinclude",
+   "-Wall",
+   "-g",
+   "-c",
+   "src/game.cpp",
+   "-o",
+   "obj/game.o"
+  ],
+  "file": "src/game.cpp"
+ }
+]
